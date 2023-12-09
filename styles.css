@@ -106,7 +106,7 @@ body {
 }
 
 .contact-info__item:hover {
-  color: orange;
+  color: var(--text-decoration-color);
 }
 
 .contact-info__item-icon-wrapper {
@@ -265,5 +265,9 @@ body {
 }
 
 .additional-info__languages-item {
+  color: var(--secondary-text-color);
+}
+
+.about-me p {
   color: var(--secondary-text-color);
 }
